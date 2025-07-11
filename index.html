@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI創網實戰營｜課程大綱 (7/11)</title>
+  <title>高雄旅遊指南｜探索景點・美食・交通</title>
   <style>
     body {
       font-family: "Segoe UI", sans-serif;
-      background-color: #fff9c4;
+      background-color: #fff8dc; /* 淡黃色背景 */
       color: #333;
       margin: 0;
       padding: 20px;
     }
     header {
       text-align: center;
-      background-color: #4a90e2;
+      background-color: #ff8c00;
       color: white;
-      padding: 5px 5px;
-      border-radius: 0px;
+      padding: 10px;
+      border-radius: 0;
     }
-    h1 { margin-bottom: 10px; }
-    h2 { color: #4a90e2; }
+    h1 {
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #ff8c00;
+    }
     table {
       width: 100%;
       border-collapse: collapse;
@@ -32,7 +36,7 @@
       vertical-align: top;
     }
     th {
-      background-color: #e9f0fb;
+      background-color: #fff0e0;
     }
     section {
       max-width: 960px;
@@ -40,19 +44,19 @@
     }
     .button-group {
       text-align: center;
-      margin-top: 30px;
+      margin-top: 40px;
     }
     .button-group a {
       display: inline-block;
       margin: 10px;
       padding: 10px 20px;
-      background-color: #4a90e2;
+      background-color: #ff8c00;
       color: white;
       text-decoration: none;
       border-radius: 6px;
     }
     .button-group a:hover {
-      background-color: #357ac8;
+      background-color: #e67e00;
     }
     footer {
       margin-top: 40px;
@@ -74,117 +78,110 @@
       margin-right: 15px;
       font-weight: bold;
     }
-    .button-area {
-      text-align: center;
-      margin-top: 100px;
-    }
-    .button-area a {
-      display: inline-block;
-      margin: 20px;
-      padding: 15px 30px;
-      font-size: 18px;
-      background-color: #3498db;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-    }
-    .button-area a:hover {
-      background-color: #2980b9;
+    .intro-image {
+      display: block;
+      margin: 30px auto;
+      border-radius: 12px;
+      max-width: 100%;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>AI創網實戰營</h1>
+    <h1>高雄旅遊指南</h1>
+    <p>探索南台灣的美麗城市：高雄</p>
   </header>
 
-  <!-- 🔗 頁首連結與按鈕 -->
   <div class="top-bar">
+    <div><a href="#">高雄觀光局</a></div>
     <div>
-      <a href="https://mis.pccu.edu.tw/" target="_blank">文化資管系</a>
-    </div>
-    <div>
-      <a href="chatgpt.html">ChatGPT 操作說明</a>
-      <a href="github.html">GitHub 操作說明</a>
-      <a href="render.html">Render 操作說明</a>
-      <a href="intro.html">創作者自我介紹</a>
+      <a href="attractions.html">景點</a>
+      <a href="food.html">美食</a>
+      <a href="transport.html">交通</a>
     </div>
   </div>
-  
+
   <section>
-    <h2>課程介紹</h2>
+    <img src="kaohsiung_skyline.jpg" alt="高雄市景" class="intro-image">
+
+    <h2>關於高雄</h2>
     <p>
-      本營隊將帶領高中生從零開始學習如何使用 AI 工具設計並上線個人網站，課程分為兩堂：<strong>AI智慧創站</strong> 與 <strong>雲端上線實戰</strong>，涵蓋網站內容生成、版面設計、GitHub 操作與 Render 部署，讓學生親手打造並發表屬於自己的第一個網站。
+      高雄是台灣南部的重要城市，不僅擁有國際港口與熱情市民，也融合了現代都市與自然風光。無論你喜歡海港風情、歷史文化、在地美食還是現代藝術，高雄都能帶給你難忘的體驗。
     </p>
 
-    <h2>課程大綱表</h2>
+    <h2>旅遊主題</h2>
     <table>
       <thead>
         <tr>
-          <th>課程名稱</th>
-          <th>教學內容</th>
-          <th>實作項目</th>
-          <th>預期成果</th>
+          <th>分類</th>
+          <th>介紹內容</th>
+          <th>推薦行程</th>
+          <th>預期體驗</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>AI智慧創站</strong><br>從零開始打造你的個人網站</td>
+          <td><strong>景點探索</strong></td>
           <td>
-            - HTML/CSS基礎<br>
-            - 使用AI生成網頁內容與版型<br>
-            - 排版與風格設計<br>
-            - 互動元素簡介
+            - 龍虎塔<br>
+            - 蓮池潭風景區<br>
+            - 駁二藝術特區<br>
+            - 旗津海灘
           </td>
           <td>
-            - 建立個人首頁<br>
-            - 加入圖片與自我介紹<br>
-            - 客製化樣式
+            - 文化一日遊<br>
+            - 水岸騎腳踏車<br>
+            - 船遊愛河
           </td>
           <td>
-            一個含個人風格的網站初稿（單頁）
+            拍出美照、感受港都獨特文化
           </td>
         </tr>
         <tr>
-          <td><strong>雲端上線實戰</strong><br>GitHub與Render部署全攻略</td>
+          <td><strong>在地美食</strong></td>
           <td>
-            - Git/GitHub帳號與操作<br>
-            - 上傳網站原始碼<br>
-            - Render平台部署教學<br>
-            - 網站更新與維護
+            - 瑞豐夜市、六合夜市<br>
+            - 米糕、牛肉湯、木瓜牛奶<br>
+            - 在地早餐：蛋餅、鹹豆漿
           </td>
           <td>
-            - GitHub倉庫建立與上傳<br>
-            - 成功部署網站<br>
-            - 練習更新內容
+            - 夜市美食攻略<br>
+            - 高雄小吃半日遊
           </td>
           <td>
-            一個公開上線、可分享的網站網址
+            吃遍道地南台灣特色小吃
+          </td>
+        </tr>
+        <tr>
+          <td><strong>交通指南</strong></td>
+          <td>
+            - 高雄捷運路線<br>
+            - 輕軌＆渡輪搭乘<br>
+            - 觀光巴士與 YouBike
+          </td>
+          <td>
+            - 輕鬆串接各大景點<br>
+            - 一卡通走透透
+          </td>
+          <td>
+            暢行無阻的高雄旅遊體驗
           </td>
         </tr>
       </tbody>
     </table>
-    
-    <!-- 加在 body 的結尾，主按鈕區域之後 -->
-    <div style="text-align: center; margin-top: 60px;">
-      <h2>加入營隊 LINE 聯絡群</h2>
-      <p>授課教師：王福星 教授｜助教：王仁為 同學(升大二)</p>      
-      <p>掃描下方 QR Code 加入我們的 LINE 聯絡群組：</p>
-      <img src="line_qr.jpg" alt="LINE QR Code" width="200" style="border: 2px solid #ccc; border-radius: 8px;">
-    </div>
-    
-    <div class="button-group">
-      <a href="chatgpt.html" class="button">ChatGPT 操作說明</a>
-      <a href="github.html" class="button">GitHub 操作說明</a>
-      <a href="render.html" class="button">Render 操作說明</a>
-      <a href="intro.html" class="button">創作者自我介紹</a>
-    </div>
 
+    <div class="button-group">
+      <a href="attractions.html">熱門景點</a>
+      <a href="food.html">在地美食</a>
+      <a href="transport.html">交通資訊</a>
+      <a href="intro.html">創作者自我介紹</a>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 AI創網實戰營｜Designed for aspiring web creators</p>
+    <p>&copy; 2025 高雄旅遊指南｜由在地旅人為你精選</p>
   </footer>
 
 </body>
